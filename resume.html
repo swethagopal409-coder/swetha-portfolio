@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Swetha - Resume</title>
+    <style>
+        :root {
+            color: #13294b;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #fff;
+            color: #1d1d1d;
+        }
+
+        .resume {
+            width: min(100%, 850px);
+            min-height: 1100px;
+            margin: 0 auto;
+            padding: 34px 42px 40px;
+            background: white;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid #9fc8ee;
+            padding-bottom: 14px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #123466;
+            font-size: 32px;
+            letter-spacing: .5px;
+        }
+
+        .role {
+            margin: 4px 0 15px;
+            color: #111;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 11px;
+        }
+
+        section {
+            border-bottom: 1px solid #9fc8ee;
+            padding: 11px 0 12px;
+        }
+
+        h2 {
+            margin: 0 0 8px;
+            color: #123466;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+
+        p, li, .detail {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 125px 1fr;
+            gap: 2px 12px;
+        }
+
+        .label {
+            font-weight: 700;
+        }
+
+        .education strong,
+        .training strong,
+        .project strong {
+            display: block;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            margin-bottom: 2px;
+        }
+
+        ul {
+            margin: 5px 0 0 18px;
+            padding: 0;
+        }
+
+        .soft-skills {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 27px;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+        }
+
+        @media (max-width: 600px) {
+            .resume {
+                padding: 24px 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .skills {
+                grid-template-columns: 105px 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="resume">
+        <header>
+            <h1>G. SWETHA</h1>
+            <div class="role">Full Stack Developer</div>
+            <div class="contact">
+                <span>✉ swetha9613@mountzion.ac.in</span>
+                <span>☎ 7603969752</span>
+                <span>⌖ Karaikudi, Tamil Nadu</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Career Objective</h2>
+            <p>Motivated and enthusiastic Full Stack Developer with a strong interest in developing responsive, user-friendly web applications. Seeking an opportunity to apply my programming and web development skills in a professional environment while continuously learning and contributing to organizational growth.</p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills detail">
+                <span class="label">Frontend</span><span>HTML, CSS, JavaScript</span>
+                <span class="label">Backend</span><span>Node.js, Express.js</span>
+                <span class="label">Database</span><span>MongoDB / MySQL</span>
+                <span class="label">Programming</span><span>Java, Python</span>
+                <span class="label">Tools</span><span>Git, GitHub, VS Code</span>
+                <span class="label">Web Development</span><span>Responsive Web Design, REST APIs</span>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <strong>B.Tech - Information Technology</strong>
+            <div class="detail">Mount Zion College of Engineering and Technology, Karaikudi</div>
+        </section>
+
+        <section class="training">
+            <h2>Training / Certification</h2>
+            <strong>Full Stack Development Training</strong>
+            <div class="detail">National Softwear, Karaikudi</div>
+        </section>
+
+        <section class="project">
+            <h2>Projects</h2>
+            <strong>Personal Portfolio Website</strong>
+            <ul>
+                <li>Designed and developed a responsive personal portfolio website.</li>
+                <li>Added sections for profile, skills, projects and contact information.</li>
+                <li>Implemented interactive features using HTML, CSS and JavaScript.</li>
+                <li>Hosted the portfolio using GitHub Pages with a custom domain.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Soft Skills</h2>
+            <div class="soft-skills detail">
+                <span>• Problem Solving</span>
+                <span>• Communication</span>
+                <span>• Teamwork</span>
+                <span>• Quick Learning</span>
+                <span>• Time Management</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Declaration</h2>
+            <p>I hereby declare that the information provided above is true and correct to the best of my knowledge.</p>
+        </section>
+
+        <div class="footer">
+            <span>Place: Karaikudi<br>Date: 24-05-2025</span>
+            <span>G. Swetha</span>
+        </div>
+    </main>
+</body>
+</html>
